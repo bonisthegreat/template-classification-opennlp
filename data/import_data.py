@@ -10,7 +10,7 @@ def sendData(args):
         threads=5,
         qsize=500
     )
-    file = codecs.open(args.file, "r",encoding='utf-8')
+    file = codecs.open(args.file, "r",encoding='utf-8', errors='ignore')
     line = file.readline();
     counter = 1;
     jsonStr = "";
