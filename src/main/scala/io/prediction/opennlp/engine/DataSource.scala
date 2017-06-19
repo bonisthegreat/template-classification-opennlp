@@ -1,12 +1,12 @@
 package io.prediction.opennlp.engine
 
-import io.prediction.controller.{EmptyEvaluationInfo, EmptyParams, PDataSource}
-import io.prediction.data.storage.Storage
+import org.apache.predictionio.controller.{EmptyEvaluationInfo, EmptyParams, PDataSource}
+import org.apache.predictionio.data.storage.Storage
 import opennlp.maxent.BasicEventStream
 import opennlp.model.OnePassDataIndexer
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
-import io.prediction.data.storage.DataMap
+import org.apache.predictionio.data.storage.DataMap
 import Array._
 
 import scala.util.Random
